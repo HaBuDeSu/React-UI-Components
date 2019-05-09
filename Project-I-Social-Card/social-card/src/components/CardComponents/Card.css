@@ -21,7 +21,6 @@
 }
 
 .card-content p {
-  text-decoration: none;
   color: black;
 }
 
@@ -31,5 +30,8 @@
 
 .card-content-source {
   color: gray;
+}
+
+a {
   text-decoration: none;
 }
