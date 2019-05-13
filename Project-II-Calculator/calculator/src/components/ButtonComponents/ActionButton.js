@@ -4,11 +4,11 @@ import './Button.css';
 const ActionButton = () => {
   return (
     <div className="action-button">
-      <div className="num action">/</div>
-      <div className="num action">X</div>
-      <div className="num action">+</div>
-      <div className="num action">-</div>
-      <div className="num action equals">=</div>
+      <button className="num action">/</button>
+      <button className="num action">X</button>
+      <button className="num action">+</button>
+      <button className="num action">-</button>
+      <button className="num action equals">=</button>
     </div>
   )
 };
