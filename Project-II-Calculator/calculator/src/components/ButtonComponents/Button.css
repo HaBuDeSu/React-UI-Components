@@ -37,7 +37,7 @@
   flex-direction: column;
 }
 
-.action {
+.operator {
   border-right-width: 1px;
   width: 112px;
   background-color: maroon;

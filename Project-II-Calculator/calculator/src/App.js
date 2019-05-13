@@ -22,8 +22,26 @@ const App = () => {
       <div>
         <CalculatorDisplay/>
         <div className="buttons">
-          <NumberButton/>
-          <ActionButton/>
+          <div className="numbers">
+            <ActionButton text="clear" buttonStyle="num clear"/>
+            <NumberButton text="7" buttonStyle="num"/>
+            <NumberButton text="8" buttonStyle="num"/>
+            <NumberButton text="9" buttonStyle="num"/>
+            <NumberButton text="4" buttonStyle="num"/>
+            <NumberButton text="5" buttonStyle="num"/>
+            <NumberButton text="6" buttonStyle="num"/>
+            <NumberButton text="1" buttonStyle="num"/>
+            <NumberButton text="2" buttonStyle="num"/>
+            <NumberButton text="3" buttonStyle="num"/>
+            <ActionButton text="0" buttonStyle="num zero"/>
+          </div>
+          <div className="operators">
+            <NumberButton value="/" buttonStyle="operator" />
+            <NumberButton value="X" buttonStyle="operator" />
+            <NumberButton value="+" buttonStyle="operator" />
+            <NumberButton value="-" buttonStyle="operator" />
+            <NumberButton value="=" buttonStyle="operator" />
+          </div>
         </div>
       </div>
     </div>
