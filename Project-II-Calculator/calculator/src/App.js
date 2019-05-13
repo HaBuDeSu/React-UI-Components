@@ -36,11 +36,11 @@ const App = () => {
             <ActionButton text="0" buttonStyle="num zero"/>
           </div>
           <div className="operators">
-            <NumberButton value="/" buttonStyle="operator" />
-            <NumberButton value="X" buttonStyle="operator" />
-            <NumberButton value="+" buttonStyle="operator" />
-            <NumberButton value="-" buttonStyle="operator" />
-            <NumberButton value="=" buttonStyle="operator" />
+            <NumberButton text="/" buttonStyle="num operator" />
+            <NumberButton text="X" buttonStyle="num operator" />
+            <NumberButton text="+" buttonStyle="num operator" />
+            <NumberButton text="-" buttonStyle="num operator" />
+            <NumberButton text="=" buttonStyle="num operator" />
           </div>
         </div>
       </div>
