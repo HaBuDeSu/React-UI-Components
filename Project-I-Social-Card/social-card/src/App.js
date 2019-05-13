@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+import FooterContainer from './components/FooterComponents/FooterContainer';
 
 const App = () => {
   return (
@@ -17,6 +20,11 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <div className="app-container">
+        <HeaderContainer/>
+        <CardContainer/>
+        <FooterContainer/>
+      </div>
     </div>
   );
 };

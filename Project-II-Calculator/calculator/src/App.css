@@ -1,0 +1,18 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 330px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
